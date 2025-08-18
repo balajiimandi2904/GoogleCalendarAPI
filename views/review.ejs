@@ -8,7 +8,7 @@
     />
   </head>
   <body class="container py-5">
-    <h1 class="mb-4 text-warning">⚡ Review Event</h1>
+    <h1 class="mb-4 text-warning">Review Event</h1>
 
     <div class="card shadow-sm p-4 mb-4">
       <p><strong>Title:</strong> <%= event.summary %></p>
@@ -25,11 +25,11 @@
     </div>
 
     <form action="/addevent" method="POST" style="display: inline">
-      <button type="submit" class="btn btn-success">✅ Accept</button>
+      <button type="submit" class="btn btn-success">Accept</button>
     </form>
 
     <form action="/declineevent" method="POST" style="display: inline">
-      <button type="submit" class="btn btn-danger">❌ Decline</button>
+      <button type="submit" class="btn btn-danger">Decline</button>
     </form>
   </body>
 </html>
