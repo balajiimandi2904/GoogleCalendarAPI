@@ -8,14 +8,14 @@
     />
   </head>
   <body class="container py-5">
-    <h1 class="mb-4 text-info">📌 Events for Selected Date</h1>
+    <h1 class="mb-4 text-info">Events for Selected Date</h1>
     <ul class="list-group mb-4">
       <% if (events.length === 0) { %>
       <li class="list-group-item">No events found.</li>
       <% } else { %> <% events.forEach(event => { %>
       <li class="list-group-item">
         <strong><%= event.summary %></strong> <br />
-        🕒 <%= event.start.dateTime || event.start.date %>
+        <%= event.start.dateTime || event.start.date %>
       </li>
       <% }) %> <% } %>
     </ul>
