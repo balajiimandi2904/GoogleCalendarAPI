@@ -1,17 +1,17 @@
-##clone the repository
+# clone the repository
 
 ```
 git clone https://github.com/balajiimandi2904/GoogleCalendarAPI.git
 cd GoogleCalendarAPI
 ```
 
-##installing packages
+# installing packages
 
 ```
 npm install
 ```
 
-##start the server
+# start the server
 
 ```
 node index.js
